@@ -15,8 +15,9 @@ body{
 }
 
 .background{
-	background-image: url('../images/background.png');
+	background-image: url('../images/portada2.jpg');
 	background-size: cover;
+
 }
 
 textarea{
@@ -36,6 +37,8 @@ input:focus, textarea:focus{
 	font-family: 'Allerta', sans-serif;
 	margin-bottom: 0px;
 	margin-top: 70px;
+	text-shadow: 3px 3px 2px #000;
+
 }
 .title-a{
 	font-size: 24px;
@@ -82,13 +85,22 @@ input:focus, textarea:focus{
 .portada button, .button{
 	margin-bottom: 70px;
 	border-radius: 8px;
-	background-color: #fd324e;
+
 	color: white;
 	border: none;
 	padding: 7px 15px;
 	cursor: pointer;
 	font-size: 18px;
-	background: linear-gradient(to left, #fe344e, #ff7250);
+	/*background: linear-gradient(to left, #fe344e, #ff7250);*/
+	/*background-color: #fd324e;*/
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffb76b+0,ffa73d+50,ff7c00+51,ff7f04+100;Orange+Gloss */
+background: #ffb76b; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 ); /* IE6-9 */
+text-shadow: 1px 2px #999;
+
 }
 
 .izquierda{
@@ -219,12 +231,17 @@ table, td, th{
 	content: '⋆';
 	font-size: 30px;
 	line-height: 30px;
-	color: white;
+	color: #F9DD2A;
 }
 
 .menu a{
-	color: white;
+	color: #F9DD2A;
+	text-shadow: 3px 3px 2px #000;
 	text-decoration: none;
+}
+
+.menu a:hover{
+	color: white;
 }
 
 .titulo span{
