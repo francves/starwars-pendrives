@@ -50,7 +50,7 @@ input:focus, textarea:focus{
 	margin-bottom: 20px;
 }
 
-.guitarras h2{
+.pendrives h2{
 	font-size: 35px;
 }
 
@@ -60,7 +60,7 @@ input:focus, textarea:focus{
 	height: 500px;
 }
 
-.guitarras{
+.pendrives{
 	color: #1F313C;
 	margin-bottom: 60px;
 }
@@ -117,7 +117,7 @@ text-shadow: 1px 2px #999;
 	right: 70px;
 }
 
-.guitarra{
+.pendrive{
 	margin: 10px 10px 40px 10px;
 	padding: 10px;
 	/*overflow: hidden;*/
@@ -125,17 +125,17 @@ text-shadow: 1px 2px #999;
 	border-radius: 8px;
 }
 
-.contenedor-guitarra-a{
+.contenedor-pendrive-a{
 	padding-left: 50px;
 }
 
-.contenedor-guitarra-b{
+.contenedor-pendrive-b{
 	margin-left: 430px;
 	position: relative;
 	bottom: 10px;
 }
 
-.guitarra ol{
+.pendrive ol{
 	padding: 0;
 }
 
@@ -252,7 +252,7 @@ table, td, th{
 }
 
 /*Si quieres agregarle un estilo a un elemento que tiene ambas clases al mismo tiempo lo haces con .clase1.clase2*/
-.guitarra.b{ 
+.pendrive.b{ 
 	height: 190px;
 }
 
