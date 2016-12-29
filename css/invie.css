@@ -46,7 +46,7 @@ input:focus, textarea:focus{
 }
 
 .title-b{
-	font-size: 50px;
+	font-size: 35px;
 	margin-bottom: 20px;
 }
 
@@ -106,12 +106,15 @@ text-shadow: 1px 2px #999;
 .izquierda{
 	float: left;
 	position: relative;
+	bottom: 130px;
+	left: 10px;
 }
 
 .derecha{
 	float: right;
 	position: relative;
-	top: -136px;
+	top: -70px;
+	right: 70px;
 }
 
 .guitarra{
@@ -123,13 +126,13 @@ text-shadow: 1px 2px #999;
 }
 
 .contenedor-guitarra-a{
-	padding-left: 20px;
+	padding-left: 50px;
 }
 
 .contenedor-guitarra-b{
-	margin-left: 370px;
+	margin-left: 430px;
 	position: relative;
-	bottom: 90px;
+	bottom: 10px;
 }
 
 .guitarra ol{
